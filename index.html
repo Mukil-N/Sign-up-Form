@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="img-container">
+            <img src="One Piece.jpg" alt="One Piece">
+            <div class="text">Mukilan</div>
+        </div>
+        <div class="user">
+            <form action="https://httpbin.org/post" method="post">
+                <p>This is not a real online srevice! You know you need somenthing like This
+                    in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to</p>
+                <fieldset>
+                    <h3>Let's do this</h3>
+                    
+                    <div class="field-group">
+                        <div class="field">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                        <div class="field">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="Email" id="email">
+                    </div>
+                        <div class="field">
+                        <label for="phno">PHONE NUMBER</label>
+                        <input type="number" name="Phone Number" id="phno">
+                    </div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                        <div class="field">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
+                    </div>
+                </fieldset>
+                <button type="submit">Create Account</button>
+                <div class="log-in">Already have an account?<a href="#">Log in</a></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

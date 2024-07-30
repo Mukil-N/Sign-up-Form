@@ -1,0 +1,71 @@
+.form {
+    display: flex;
+}
+p {
+    font-size: xx-large;
+    margin-left: 50px;
+    font-weight: 700;
+    width: 875px;
+}
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+img {
+    width: 100%;
+    height: 730px;
+    display: block;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: rgba(15, 13, 13, 0.5);
+    padding: 10px;
+    font-size: 24px;
+}
+fieldset {
+    border: none;
+    margin-right: 220px;
+}
+.field-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 30px;
+}
+h3 {
+    margin-left: 40px;
+}
+button {
+    width: 20%;
+    padding: 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 60px;
+    color: white;
+    font-size: 16px;
+}
+.log-in {
+    margin-left: 60px;
+}
+button:hover {
+    background-color: #ccc;
+    color: black;
+}
+input:invalid {
+    border-color: red;
+}
